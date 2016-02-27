@@ -1,0 +1,157 @@
+/* Container 1 */
+
+.h1{
+	display: block;
+}
+
+.form-control{
+	padding: 6px 12px;
+	font-size: 14px;
+	border-radius: 4px;
+}
+
+.container-1{
+	position: relative;
+}
+
+.container-1 .navbar-brand{
+	padding: 0px;
+	float: left;
+	font-size: 18px;
+}
+
+.container-1 .navbar-form .navbar-right{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+/* Container 2 */
+.container-2{
+	width: 1170px;
+	margin: 30px;
+	position: relative;
+}
+
+.jumbotron .h1{
+	font-size: 63px;
+	font-weight: 500;
+	line-height; 1.1;
+}
+
+.jumbotron{
+	background-color: #eeeeee;
+	padding-left: 30px;
+}
+
+.jumbotron.p{
+	margin-bottom: 15px;
+}
+
+.jumbotron .container-2{
+	max-width: 100%;
+}
+
+.jumbotron p {
+	margin-bottom: 15px;
+	font-size: 21px;
+	font-weight: 200;
+}
+
+.button-cta{
+	margin: 0px;
+}
+
+/* Button */
+.btn {
+	display: inline-block;
+	font-size: 18px;
+	text-align: center;
+	font-weight: 400;
+	white-space: nowrap;
+	vertical-align: middle;
+	margin-bottom: 0;
+	cursor: pointter;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.btn__green.btn__round.btn__fill{
+	background-color: #27ae60;
+	border-color: #27ae60;
+}
+
+.btn__fill{
+	color: #ffffff;
+	border-color: #2e6da4;
+}
+
+.btn__round{
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.3333333;
+	border-radius: 6px;
+}
+
+.btn__blue.btn__round.btn__fill{
+	background-color: #337ab7;
+	border-color: #eeeeee;
+}
+
+.btn:hover {
+	transition: all 0.3s ease;
+}
+
+.body{
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333333;
+	background-color: #ffffff;
+}
+
+.btn__grey.btn__round.btn__empty{
+	background-color: #ffffff;
+	border-color: #7f8c8d;
+}
+
+.btn__grey.btn__round.btn__empty:hover{
+	background-color: #95a5a6;
+}
+
+/* Post */
+
+.container-2{
+	padding: 40px;
+}
+
+.post__desc{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin: 10px 0;
+	font-size: 16px;
+	line-height: 1.42857143;
+	color: #333333;
+}
+
+.footer{
+	padding: 40px;
+	margin: 10px;
+}
+
+.btn--empty.btn--pink2 {
+	border-color: rgba(198, 164, 154, 1);
+}
+
+.btn--empty.btn--pink2:hover {
+	background: rgba(198, 164, 154, 1);
+}
+
+.footer .hr {
+	margin-top: 10px
+	margin-bottom: 10px;
+}
+
+.footer .p{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
