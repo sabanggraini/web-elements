@@ -1,0 +1,402 @@
+body{
+	font-family: roboto;
+	background-color: #F0F2F2;
+}
+
+@font-face {
+	font-family: Proxima;
+	src: url(Proxima.otf);
+}
+
+@font-face {
+	font-family: futura;
+	src: url(futura-lt-heavy.ttf);
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 960px; /*lebar maksimal*/
+}
+
+.btn {
+	display: inline-block;
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
+	letter-spacing: 2px;
+	padding: 0.53333em 1em;
+    border-width: 1px;
+    border-color: #000000;
+    font-size: 20px;
+    font-weight: 100;
+ 	border-style: solid;
+ 	font-family: Proxima;
+ 	text-align: center;
+ 	line-height: 1.5em;
+ 	white-space: nowrap;
+ 	cursor: pointer;
+ 	margin: 0px 10px; /*atas bawah - samping*/
+}
+
+.btn:focus{
+	outline: 0;
+}
+
+.btn:hover {
+	transition: all 0.3s ease;
+}
+
+
+.btn--fill.btn--pink {
+	background-color: rgba(214, 129, 137, 1);
+	border-color: rgba(214, 129, 137, 1);
+}
+
+.btn--fill.btn--pink:hover {
+	background-color: rgba(214, 129, 137, 0.8);
+}
+
+.btn--fill.btn--pink2 {
+	background-color: rgba(198, 164, 154, 1);
+	border-color: rgba(198, 164, 154, 1);
+}
+
+.btn--fill.btn--pink2:hover {
+	background-color: rgba(198, 164, 154, 0.8);
+}
+
+.btn--fill.btn--blue {
+	background-color: rgba(198, 229, 217, 1);
+	border-color: rgba(198, 229, 217, 1);
+}
+
+.btn--fill.btn--blue:hover {
+	background-color: rgba(198, 229, 217, 0.5)
+}
+
+.btn--fill.btn--cream {
+	background-color: rgba(244, 234, 213, 1);
+	border-color: rgba(244, 234, 213, 1);
+}
+
+.btn--fill.btn--cream:hover {
+	background-color: rgba(244, 234, 213, 0.6);
+}
+
+.btn--empty {
+	background: none;
+}
+
+.btn--empty.btn--pink {
+	border-color: rgba(214, 129, 137, 1);
+}
+
+.btn--empty.btn--pink:hover {
+	background: rgba(214, 129, 137, 1);
+}
+
+.btn--empty.btn--pink2 {
+	border-color: rgba(198, 164, 154, 1);
+}
+
+.btn--empty.btn--pink2:hover {
+	background: rgba(198, 164, 154, 1);
+}
+
+.btn--empty.btn--blue {
+	border-color: rgba(198, 229, 217, 1);
+}
+
+.btn--empty.btn--blue:hover {
+	background: rgba(198, 229, 217, 1);
+}
+
+.btn--empty.btn--cream {
+	border-color: rgba(244, 234, 213, 1);
+}
+
+.btn--empty.btn--cream:hover {
+	background: rgba(244, 234, 213, 1);
+}
+
+.btn--round {
+	background: none;
+	border-radius: 50px;
+}
+
+.btn--round.btn--pink {
+	border-color: rgba(214, 129, 137, 1);
+}
+
+.btn--round.btn--pink:hover {
+	background: rgba(214, 129, 137, 1);
+}
+
+.btn--round.btn--pink2 {
+	border-color: rgba(198, 164, 154, 1);
+}
+
+.btn--round.btn--pink2:hover {
+	background: rgba(198, 164, 154, 1);
+}
+
+.btn--round.btn--blue {
+	border-color: rgba(198, 229, 217, 1);
+}
+
+.btn--round.btn--blue:hover {
+	background: rgba(198, 229, 217, 1);
+}
+
+.btn--round.btn--cream {
+	border-color: rgba(244, 234, 213, 1);
+}
+
+.btn--round.btn--cream:hover {
+	background: rgba(244, 234, 213, 1);
+}
+
+
+.btn--block {
+	background: none;
+	width: 100%;
+	font-size: 14px;
+	margin: 10px 0;
+
+}
+
+/* Button Round Fill */
+
+.btn--fill.btn--round.btn--pink:hover {
+	background: rgba(214, 129, 137, 0.8);
+}
+
+.btn--fill.btn--round.btn--pink2:hover {
+	background: rgba(198, 164, 154, 0.8);
+}
+
+.btn--fill.btn--round.btn--blue:hover {
+	background: rgba(198, 229, 217, 0.8);
+}
+
+.btn--fill.btn--round.btn--cream {
+	background: rgba(244, 234, 213, 0.8);
+}
+
+/* Button Block */
+
+.btn--block.btn--pink {
+	border-color: rgba(214, 129, 137, 1);
+
+}
+
+.btn--block.btn--pink:hover {
+	background: rgba(214, 129, 137, 1);
+	color: white;
+}
+
+.btn--block.btn--pink2 {
+	border-color: rgba(198, 164, 154, 1);
+}
+
+.btn--block.btn--pink2:hover {
+	background: rgba(198, 164, 154, 1);
+	color: white;
+}
+
+.btn--block.btn--blue {
+	border-color: rgba(198, 229, 217, 1);
+}
+
+.btn--block.btn--blue:hover {
+	background: rgba(198, 229, 217, 1);
+	color: white;
+}
+
+.btn--block.btn--cream {
+	border-color: rgba(244, 234, 213, 1);
+}
+
+.btn--block.btn--cream:hover {
+	background: rgba(244, 234, 213, 1);
+	color: white;
+}
+
+/* Button Block Fill */
+
+.btn--fill.btn--block.btn--pink:hover {
+	background: rgba(214, 129, 137, 0.8);
+}
+
+.btn--fill.btn--block.btn--pink2:hover {
+	background: rgba(198, 164, 154, 0.8);
+}
+
+.btn--fill.btn--block.btn--blue:hover {
+	background: rgba(198, 229, 217, 0.8);
+}
+
+.btn--fill.btn--block.btn--cream {
+	background: rgba(244, 234, 213, 0.8);
+}
+
+/* Card */
+
+.card {
+	background-color: rgba(244, 234, 213, 0.8);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+}
+.card__head{
+	width:100%;
+	position: relative;
+}
+
+.card__image{
+	width: 100%;
+}
+
+.card__figure__type{
+	position: absolute;
+	top: 0;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: white;
+	padding: 10px;
+}
+
+.card__body{
+	padding: 0.53333em 1em;
+}
+
+
+.card__time {
+	font-size: 10px;
+	color: white;
+}
+
+.card__link {
+	font-size: 12px;
+	color: white;
+	padding-top: 10px;
+}
+
+/* Post */
+
+.container-2 {
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	max-width: 1080px; /*lebar maksimal*/
+}
+
+.post{
+	text-align: center;
+	margin: 1px;
+}
+
+.post__photo{
+	width: 100%;
+}
+
+.post__head{
+	width:100%;
+	position: relative;
+}
+
+.post__body{
+	padding: 0.53333em 1em;
+}
+
+.post__desc{
+	margin: 10px;
+	margin-bottom: 40px;
+}
+
+.post__title{
+	font-family: futura;
+}
+
+.post__time {
+	font-size: 10px;
+}
+
+.post__link {
+	font-size: 12px;
+	color: white;
+	padding-top: 10px;
+}
+
+.button{
+	text-align: center;
+}
+
+/* Menu */
+
+.main__menu{
+	font-family: futura;
+}
+
+.title {
+	color: black;
+	text-transform: uppercase;
+	position: relative;
+	left: 0;
+	margin-left: 10px;
+	font-size: 22px;
+
+}
+
+.menu {
+	font-family: futura;
+	position: absolute;
+	display: inline;
+	right: 0;
+	margin-right: 10px;
+	font-size: 22px;
+}
+
+.menu li {
+	display: inline;
+	text-transform: uppercase;
+	padding-right: 8px;
+	position: relative;
+	padding: 20px;
+}
+
+.menu li a{
+	color: black;
+	text-decoration: none;
+}
+
+.sub-menu {
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	padding: 0px;
+	margin-top: 50px;
+	margin-left: 15px;
+}
+
+.sub-menu li {
+	display: block;
+	padding: 5px;
+}
+
+.menu .menu__list:hover > .sub-menu {
+	display: block;
+}
+
+.sub-menu:hover .sub-menu li{
+	display: block;
+}
+
+.sub-menu > li {
+	display: block;
+}
+
+.menu__list:hover .sub-menu {
+	display: block;
+}
