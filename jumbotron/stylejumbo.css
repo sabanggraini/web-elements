@@ -14,6 +14,8 @@
 	padding: 6px 12px;
 	font-size: 14px;
 	border-radius: 4px;
+	width: auto;
+	display: inline;
 }
 
 .container-1{
@@ -167,4 +169,8 @@
 .footer .p{
 	margin-top: 15px;
 	margin-bottom: 15px;
+}
+
+.form__group input, .form__group button {
+	display: inline;
 }
